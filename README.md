@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Age%20%26%20Gender%20Prediction&fontSize=40&fontColor=ffffff&fontAlignY=38&desc=Deep%20Learning%20%7C%20CNN%20%7C%20Face%20Analysis%20%7C%20Food%20Recommendation&descAlignY=58&descSize=16&descColor=a8d8ea)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Age%20%26%20Gender%20Prediction&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Deep%20Learning%20%7C%20CNN%20%7C%20Face%20Analysis%20%7C%20Food%20Recommendation&descAlignY=58&descSize=15&descColor=a8d8ea)
 
 [![License](https://img.shields.io/badge/License-MIT-2c5364?style=for-the-badge)](#-license)
 [![Stars](https://img.shields.io/github/stars/MuhammadAdnan586/Age-and-Gender-Prediction?style=for-the-badge&color=2c5364&label=Stars)](https://github.com/MuhammadAdnan586/Age-and-Gender-Prediction/stargazers)
@@ -80,19 +80,16 @@ jupyter notebook
 ---
 
 ### 📂 Project Structure
+```
 Age-and-Gender-Prediction/
-
 ├── Deep Learning/
-
 │   ├── age_gender_prediction.ipynb   ← Main model training notebook
-
 │   ├── food_recommendation.ipynb     ← Food recommendation system
-
 │   ├── models/                       ← Saved trained models
-
 │   └── data/                         ← Dataset (download separately)
-
 └── .gitignore
+```
+
 ---
 
 ### 📊 Model Performance
