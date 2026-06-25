@@ -1,6 +1,18 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Age%20%26%20Gender%20Prediction&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Deep%20Learning%20%7C%20CNN%20%7C%20Face%20Analysis%20%7C%20Food%20Recommendation&descAlignY=58&descSize=15&descColor=a8d8ea)
+<svg width="100%" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f2027"/>
+      <stop offset="50%" style="stop-color:#203a43"/>
+      <stop offset="100%" style="stop-color:#2c5364"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="180" fill="url(#grad)"/>
+  <path d="M0,140 Q225,100 450,130 Q675,160 900,120 L900,180 L0,180 Z" fill="rgba(0,0,0,0.2)"/>
+  <text x="450" y="85" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">🧠 Age &amp; Gender Prediction</text>
+  <text x="450" y="125" font-family="Arial" font-size="15" fill="#a8d8ea" text-anchor="middle">Deep Learning | CNN | Face Analysis | Food Recommendation</text>
+</svg>
 
 [![License](https://img.shields.io/badge/License-MIT-2c5364?style=for-the-badge)](#-license)
 [![Stars](https://img.shields.io/github/stars/MuhammadAdnan586/Age-and-Gender-Prediction?style=for-the-badge&color=2c5364&label=Stars)](https://github.com/MuhammadAdnan586/Age-and-Gender-Prediction/stargazers)
@@ -128,7 +140,16 @@ This project is licensed under the **MIT License**.
 
 <div align="center">
 
-![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer)
+<svg width="100%" height="100" viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2c5364"/>
+      <stop offset="50%" style="stop-color:#203a43"/>
+      <stop offset="100%" style="stop-color:#0f2027"/>
+    </linearGradient>
+  </defs>
+  <path d="M0,0 Q225,50 450,20 Q675,-10 900,40 L900,100 L0,100 Z" fill="url(#grad2)"/>
+</svg>
 
 Made with ❤️ by [**Muhammad Adnan**](https://github.com/MuhammadAdnan586) — Data Scientist | ML Engineer  
 [LinkedIn](https://www.linkedin.com/in/m-adnan-12a816402) • [Portfolio](https://portfolio-eight-delta-7blam1yft8.vercel.app)
