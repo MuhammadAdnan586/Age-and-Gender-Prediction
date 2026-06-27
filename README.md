@@ -1,23 +1,11 @@
 <div align="center">
 
-<svg width="100%" height="180" viewBox="0 0 900 180" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0f2027"/>
-      <stop offset="50%" style="stop-color:#203a43"/>
-      <stop offset="100%" style="stop-color:#2c5364"/>
-    </linearGradient>
-  </defs>
-  <rect width="900" height="180" fill="url(#grad)"/>
-  <path d="M0,140 Q225,100 450,130 Q675,160 900,120 L900,180 L0,180 Z" fill="rgba(0,0,0,0.2)"/>
-  <text x="450" y="85" font-family="Arial" font-size="36" font-weight="bold" fill="white" text-anchor="middle">🚀 PROJECT NAME HERE</text>
-  <text x="450" y="125" font-family="Arial" font-size="15" fill="#a8d8ea" text-anchor="middle">Tag 1 | Tag 2 | Tag 3 | Tag 4</text>
-</svg>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=header&text=Age%20%26%20Gender%20Prediction&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Deep%20Learning%20%7C%20CNN%20%7C%20Face%20Analysis%20%7C%20Food%20Recommendation&descAlignY=58&descSize=16&descColor=a8d8ea)
 
-[![License](https://img.shields.io/badge/License-MIT-2c5364?style=for-the-badge)](#-license)
-[![Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=2c5364&label=Stars)](https://github.com/YOUR_USERNAME/YOUR_REPO/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO?style=for-the-badge&color=2c5364&label=Updated)](https://github.com/YOUR_USERNAME/YOUR_REPO/commits/main)
-[![Python](https://img.shields.io/badge/Python-3.x-F37626?style=for-the-badge&logo=python&logoColor=white)](#)
+[![License](https://img.shields.io/badge/License-MIT-0f2027?style=for-the-badge)](#-license)
+[![Stars](https://img.shields.io/github/stars/MuhammadAdnan586/Age-and-Gender-Prediction?style=for-the-badge&color=2c5364&label=Stars)](https://github.com/MuhammadAdnan586/Age-and-Gender-Prediction/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/MuhammadAdnan586/Age-and-Gender-Prediction?style=for-the-badge&color=2c5364&label=Updated)](https://github.com/MuhammadAdnan586/Age-and-Gender-Prediction/commits/main)
+[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](#)
 
 </div>
 
@@ -25,28 +13,40 @@
 
 ### 📌 About the Project
 
-**Project Name** is a [brief description of what your project does]. Built using [main technology], it [key benefit or outcome].
+**Age & Gender Prediction** is a deep learning project that uses Convolutional Neural Networks (CNN) to predict a person's **age and gender from facial images**. Built on top of TensorFlow and Keras, the model is trained on real-world face datasets and achieves strong accuracy across diverse age groups and genders.
 
-> [Optional: Add a bonus feature or special highlight about your project here.]
+> As a bonus feature, the project also includes a **Food Recommendation System** that suggests food based on the predicted age group — combining computer vision with a practical recommendation engine.
+
+---
+
+### 📊 Model Performance
+
+| Task | Metric | Score |
+|---|---|---|
+| 🎯 Gender Classification | Accuracy | **~90%+** |
+| 📏 Age Estimation | MAE | **~5 years** |
+| 👁️ Face Detection | OpenCV DNN | **Real-time** |
 
 ---
 
 ### ✨ Key Features
 
-**🔹 Feature Category 1**
-- Description of feature point 1
-- Description of feature point 2
-- Description of feature point 3
+**🔹 Age & Gender Prediction**
+- CNN-based deep learning model for facial analysis
+- Predicts age (regression) and gender (classification) simultaneously
+- Preprocessing pipeline with face detection using OpenCV
+- Model evaluation with accuracy metrics and confusion matrix
 
-**🔹 Feature Category 2**
-- Description of feature point 1
-- Description of feature point 2
+**🔹 Food Recommendation System**
+- Rule-based recommendation engine tied to predicted age group
+- Suggests nutritionally appropriate foods (child, adult, senior)
+- Easily extensible to collaborative filtering
 
 **🔹 Technical Highlights**
-- Highlight 1
-- Highlight 2
-- Highlight 3
-- Highlight 4
+- Transfer learning support for faster training
+- Data augmentation to improve generalization
+- Visualizations — training curves, sample predictions, heatmaps
+- Clean Jupyter Notebook workflow for reproducibility
 
 ---
 
@@ -54,24 +54,32 @@
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-<!-- 
-  Replace badges above with your own. Use:
-  https://img.shields.io/badge/LABEL-COLOR?style=flat-square&logo=LOGO&logoColor=white
-  Logo names: https://simpleicons.org/
--->
+![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
 | Layer | Technology |
 |---|---|
-| Backend | [e.g. FastAPI / Django / Flask] |
-| Frontend | [e.g. React / Vue / Streamlit] |
-| Database | [e.g. PostgreSQL / MongoDB] |
-| ML/AI | [e.g. TensorFlow / PyTorch / scikit-learn] |
-| Deployment | [e.g. Docker / AWS / Vercel] |
+| Deep Learning Framework | TensorFlow + Keras |
+| Face Detection | OpenCV (Haar Cascade / DNN) |
+| Data Processing | NumPy, Pandas |
+| Visualization | Matplotlib, Seaborn |
+| Notebook Environment | Jupyter Notebook |
 | Language | Python 3.x |
+
+---
+
+### 🧠 Skills Demonstrated
+
+- Convolutional Neural Network (CNN) design
+- Multi-output model training (regression + classification)
+- Face detection & image preprocessing
+- Transfer learning & data augmentation
+- Model evaluation & visualization
+- Rule-based recommendation system
 
 ---
 
@@ -79,18 +87,15 @@
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
-cd YOUR_REPO
+git clone https://github.com/MuhammadAdnan586/Age-and-Gender-Prediction.git
+cd Age-and-Gender-Prediction
 
-# 2. Create virtual environment (recommended)
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+# 2. Install dependencies
+pip install tensorflow keras opencv-python numpy pandas matplotlib seaborn jupyter
 
-# 3. Install dependencies
-pip install -r requirements.txt
-
-# 4. Run the project
-python main.py
+# 3. Open the notebook
+cd "Deep Learning"
+jupyter notebook
 ```
 
 ---
@@ -98,88 +103,46 @@ python main.py
 ### 📂 Project Structure
 
 ```
-YOUR_REPO/
-├── src/
-│   ├── module1/          ← Description of module
-│   ├── module2/          ← Description of module
-│   └── utils/            ← Helper utilities
-├── data/                 ← Dataset folder (add separately)
-├── models/               ← Saved model files
-├── notebooks/            ← Jupyter notebooks
-├── tests/                ← Unit tests
-├── requirements.txt      ← Python dependencies
-└── README.md
+Age-and-Gender-Prediction/
+├── Deep Learning/
+│   ├── age_gender_prediction.ipynb   ← Main model training notebook
+│   ├── food_recommendation.ipynb     ← Food recommendation system
+│   ├── models/                       ← Saved trained models
+│   └── data/                         ← Dataset (download separately)
+└── .gitignore
 ```
 
 ---
 
-### 📊 Results / Performance
+### 🗂️ Dataset
 
-| Metric | Value | Notes |
-|---|---|---|
-| Accuracy | ~XX% | On test set |
-| Speed | X ms/req | On CPU |
-| Model Size | X MB | After optimization |
+This project uses publicly available face datasets. Recommended:
 
----
+- **UTKFace** — [kaggle.com/datasets/jangedoo/utkface-new](https://www.kaggle.com/datasets/jangedoo/utkface-new)
+- **IMDB-WIKI** — large-scale face dataset with age & gender labels
 
-### 🗂️ Dataset / Resources
-
-- **Dataset Name** — [Link to dataset](https://example.com)
-- **Pretrained Model** — [Link to model weights](https://example.com)
-- **Reference Paper** — [Link to paper](https://example.com)
-
-> [Any special instructions for downloading or setting up data.]
-
----
-
-### 🔧 Configuration
-
-Create a `.env` file in the root directory:
-
-```env
-API_KEY=your_api_key_here
-DATABASE_URL=your_database_url
-MODEL_PATH=./models/your_model.h5
-DEBUG=False
-```
+> Download the dataset and place it in the `Deep Learning/data/` folder before running the notebooks.
 
 ---
 
 ### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Feel free to check the [issues page](https://github.com/YOUR_USERNAME/YOUR_REPO/issues).
+Feel free to check the [issues page](https://github.com/MuhammadAdnan586/Age-and-Gender-Prediction/issues) or open a pull request.
 
 ---
 
 ### 📄 License
 
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License**.
 
 ---
 
 <div align="center">
 
-<svg width="100%" height="100" viewBox="0 0 900 100" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2c5364"/>
-      <stop offset="50%" style="stop-color:#203a43"/>
-      <stop offset="100%" style="stop-color:#0f2027"/>
-    </linearGradient>
-  </defs>
-  <path d="M0,0 Q225,50 450,20 Q675,-10 900,40 L900,100 L0,100 Z" fill="url(#grad2)"/>
-</svg>
+![Footer](https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=100&section=footer)
 
-Made with ❤️ by [**YOUR NAME**](https://github.com/YOUR_USERNAME) — Your Title Here  
-[LinkedIn](https://www.linkedin.com/in/YOUR_PROFILE) • [Portfolio](https://your-portfolio.com)
+Made with ❤️ by [**Muhammad Adnan**](https://github.com/MuhammadAdnan586) — Data Scientist | ML Engineer  
+[LinkedIn](https://www.linkedin.com/in/m-adnan-12a816402) • [Portfolio](https://portfolio-eight-delta-7blam1yft8.vercel.app)
 
 </div>
